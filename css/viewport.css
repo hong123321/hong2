@@ -1,0 +1,165 @@
+/* CSS Document */
+
+@media screen and (max-width: 1023px){
+ 
+  
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 140px;
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+	  left: 0;}
+  
+#container{
+	margin: 0px auto;
+	height: auto;
+	}
+.header{
+	left: 0;
+	width: auto;
+	padding: 0px; 
+    top: 0;
+	display: block;
+	position: fixed;
+	z-index: 10000;
+	
+	
+}
+#congcu{
+	height: 70px;
+	display: flex;
+	background-color:#0171CD;
+	
+	width: 100%;
+	
+	
+}
+#logo{
+	float: left;
+	height: 100%;
+	width: 20%;
+	color: #fff;
+	padding-top:10px;
+}
+#giua{
+	height: 100%;
+    width: 40%;
+	display: flex;
+}
+.congcu1 p{
+	padding: 20px 20px;
+	color: #FFFFFF;
+    margin-top: 15px;
+	font-size: 8vw;
+}
+
+#mxh{
+	
+	width: 40%;
+	padding-top: 10px;
+	display: none;
+}
+.mxh1{
+	padding: 10px;
+	
+
+}
+.mxh1:hover img{
+	
+		transform: scale(1.5);
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+#banner{
+    
+	width: 100%;
+    padding-top: 5%;
+    
+}
+#banner img{
+	height: 400px;	
+	width: 100%;
+}
+.a{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.b{ 
+
+	float: left;
+	position: absolute;
+	z-index: 1020;
+	right: 2%;
+
+	padding: 10px 20px;
+	display: block;
+
+}
+#c
+{
+	
+	position:absolute;
+    left: 17%;
+	bottom: 0px;
+	display: flex;
+
+}
+#c .img1{
+	margin:30px;
+	height: 100px;
+	width: 50px;
+	border: 1px solid#2E3191;
+	background-color:#FFFFFF;	
+	border-radius: 20px;
+	overfolow:hidden
+	
+}
+.img1:hover img{
+    /*transform: scale(1.5);
+    transition: all ease-in-out 0.5s;*/
+	margin-top: -20px;
+	transition: 0.4s;
+ 
+ 
+}
+#c .img1 p{
+	color: #0F76BC;
+	text-align: center;
+
+}
+
+.img1 img{
+	padding-left: 22%;
+	padding-top: 10%;
+	position: relative;
+    transition: all ease-in-out ;
+    overflow: hidden;
+}
+}
+@media screen and (max-width: 700px)
+{
+	.congcu p{
+		font-size: 4vw;
+	}
+}

@@ -1,0 +1,503 @@
+/* CSS Document */
+
+#container{
+	margin: 0px auto;
+	max-width: 1000px;
+	height: auto;
+	}
+
+
+
+#header{
+	left: 0;
+	width: 100%;
+	padding: 0px; 
+    top: 0;
+	display: block;
+	position: fixed;
+	z-index: 10000;
+	
+	
+}
+
+#congcu{
+	height: 100%;
+	display: flex;
+	background-color:#0171CD;
+	width: 100%;
+	
+	
+}
+#logo{
+	float: left;
+	height: 100%;
+	width: 20%;
+	color: #fff;
+	padding-top:10px;
+}
+#giua{
+	height: 100%;
+    width: 40%;
+	display: flex;
+}
+.congcu1 p{
+	padding: 10px 10px;
+	color: #FFFFFF;
+    margin-top: 25px;
+}
+
+#mxh{
+	display: flex;
+	width: 40%;
+	padding-top: 10px;
+}
+.mxh1{
+	padding: 10px;
+	
+
+}
+.mxh1:hover img{
+	
+		transform: scale(1.5);
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+#banner{
+	height: 80%;
+	width: 100%;
+    padding-top: 5%;
+    
+}
+.a{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.b{ 
+
+	float: left;
+	position: absolute;
+	z-index: 1020;
+	top:40px;
+	right: 2%;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	display: block;
+
+}
+ul#main-manu a{
+
+	display: flex;
+	color:aliceblue;
+
+
+	text-decoration: none;
+
+}
+ul li {
+	float: left;
+	padding-right: 30px;
+	padding-top: 20%;
+	list-style: none;
+}	
+#c
+{
+	
+	position:absolute;
+    left: 17%;
+	bottom: 0px;
+	display: flex;
+	bottom: -230px;
+}
+#c .img1{
+	margin:30px;
+	height: 200px;
+	width: 200px;
+	border: 1px solid#2E3191;
+	background-color:#FFFFFF;	
+	border-radius: 20px;
+	overfolow:hidden
+	
+}
+.img1:hover img{
+    /*transform: scale(1.5);
+    transition: all ease-in-out 0.5s;*/
+	margin-top: -20px;
+	transition: 0.4s;
+ 
+ 
+}
+#c .img1 p{
+	color: #0F76BC;
+	text-align: center;
+
+}
+
+.img1 img{
+	padding-left: 22%;
+	padding-top: 10%;
+	position: relative;
+    transition: all ease-in-out ;
+    overflow: hidden;
+}
+
+
+
+
+	
+/*css của body*/
+#body{
+	height: 600px;
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 200px;
+	display: flex;
+	
+}
+/*chữ trái*/
+#trai{
+	
+	height: 800px;
+	width: 40%;
+	color: aliceblue;
+	float: left;
+}
+
+#trong1{
+	height: 340px;
+	width: 100%;
+	padding: 10%;
+	
+}
+
+
+#trong1 h1{
+	height: 60px;
+	width: 100%;
+	background-color: #27B1E6;;
+	padding-top: 30px;
+	color:#767676;
+}
+#trong1 p{
+	
+	color: #1293BB;
+}
+#trong1 h2{
+	color: #1522A8;
+	
+} 
+/*hình phải*/
+#phai{
+	height: 800px;
+	width: 45%;
+	
+	float: right;
+	border: 1px;
+
+}
+#trong2 .hinhphai{
+	height: 450px;
+	width: 500px;
+	padding: 45%;
+	padding-top: 80px;
+}
+.hinhphai:hover img{
+	transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+/*css của body 2	*/
+#body2{
+	height: auto;
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+	padding-top: 200px;
+
+	display: block;
+}
+.col .tintuc h2{
+	text-align: center;
+	color: #0f76bc;
+}
+.col {
+	overflow: hidden;
+	margin: 1.5em auto;
+	
+}
+.col .row{
+
+	float: left;
+	width: 25%;
+	padding: 50px;	
+	padding-left: 5%;
+
+}
+.row h3
+{
+	color: #27B1E6;
+}
+.row .button{
+	
+	color:#FFFFFF;
+	background-color: #0F76BC;
+	height: 25px;
+	
+}
+.row:hover img{
+		transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+.duan{
+	height: 1000px;
+	width: 63.5%;
+	margin-left: 18%;
+	
+}
+.duan .tren .giaoduc:hover img{
+		transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+.duan .tren .thuongmai:hover img{
+		transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+.duan .tren{
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+.duan .tren .giaoduc{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.duan .duoi{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	
+}
+.duan .duoi .congnge{
+	height: 100%;
+	width: 50%;
+	float: left;
+	
+}
+.duan .duoi .congnge:hover img{
+		transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+.duan .duoi .dichvu:hover img{
+		transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+/*css khám phá chức năng*/
+
+.chucnang {
+	height: 300px;
+	width: 100%;
+	padding-top: 10%;
+	
+
+}
+.chucnang .chucnang1{
+	padding-left: 18%;
+	padding-top: 5%;
+}
+
+.chucnang .chucnang1 .chucnang2{
+	
+	margin: 30px;
+	height: 180px;
+	width: 180px;
+	border: 1px solid#2E3191;
+	background-color:#FFFFFF;	
+	border-radius: 20px;
+	float:left;
+}
+.chucnang2 p{
+	text-align: center;
+
+}
+.chucnang2 .d{
+	padding-left: 35px;
+	padding-top: 10px; 	
+}
+.chucnang2 p{
+	color: #0F76BC;
+	text-align: center;
+	padding-top: 2px;
+	paddingt-top: 20px;
+}	
+.chucnang h2{
+	
+	color: #27B1E6;
+}
+.chucnang2:hover img{
+	
+		transform: scale(1.3);
+    transition: all ease-in-out 0.5s;
+
+}
+.footer{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	background-color: #27b1e6;
+
+
+	
+}
+.footer .trai{
+	float: left;
+	width: 50%;
+	height: 300px;
+
+}
+.footer .trai .map{
+	padding: 30px 30px;
+}
+.footer .phai{
+	float: right;
+	width: 60%;
+	height: 300px;
+}
+.footer .phai p{
+	padding-top: 50px;
+	color: #FFFFFF;
+}
+/*đối tác của nobicode*/
+.body22{
+	width: 100%;
+	height: 250px;
+	padding-left: 3%;
+	padding-top: 10%;
+}
+.body22 div{	
+	width: 30%;
+	height: 100%;
+	margin-left: 10px;
+	float: left
+}
+.body22 div img{
+	width: 100%;
+	height: 200px;
+}
+.body22 div h1{
+	text-align: center;
+	color: #27B1E6;
+}
+/*css của công nghệ*/
+.hoatdong{
+	height:940px;
+	width: 100%;
+	display: block;
+}
+.congnghetrai
+{
+	width: 69%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #0092EF;
+
+	
+	
+}
+.congnghephai{
+	width: 30%;
+	height: 100%;
+	float: right;
+	
+}
+.congnghetrai img{
+	padding: 20px 20px;
+}
+.congnghetrai .trai1{
+	height: 30%;
+	width: 100%;
+	display: block;
+}
+.congnghetrai .trai1 .hinh{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.congnghetrai .trai1 .chu{
+	float: right;
+	width: 50%;
+	height: 100%;
+
+
+}
+.hoatdong .chu p{
+	padding: 5px 5px;
+	color: #0092EF;
+}
+.hoatdong .chu h3{
+color: #0092EF;
+}
+.congnghetrai .trai2{
+	height: 30%;
+	width: 100%;
+	border-top: 1px solid #0092EF;
+}
+.congnghetrai .trai2 .hinh{
+	width: 40%;
+	height: 100%;
+	float: left;
+
+}
+.congnghetrai .trai2 .chu{
+	float: right;
+	width: 50%;
+	height: 100%;
+	
+	
+}
+.congnghetrai .trai3{
+	height: 30%;
+	width: 100%;
+	border-top: 1px solid #0092EF;
+}
+.congnghetrai .trai3 .hinh{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+.congnghetrai .trai3 .chu{
+	float: right;
+	width: 50%;
+	height: 100%;
+
+}
+.congnghephai .phai1{
+	height: 50%;
+	width: 100%;
+
+	
+}
+.congnghephai img{
+	padding: 20px 20px;
+}
+.congnghephai .phai2{
+	height: 50%;
+	width: 100%;
+	border-top:1px solid #0092EF;
+	
+}
+
+
+
+			
+
+
+
+
+
+	
+/* CSS Document */
+
